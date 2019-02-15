@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>罗许个人网站</title>
+    <!--keywords关键字查找-->
+    <meta name="keywords" content="罗许,罗许"/>
+    <!--description说明-->
+    <meta name="description" content="罗许，罗许"/>
+    <!--Robots机器人向导-->
+    <!--适配手机-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/comm.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="logo">罗许个人官网</div>
+    <div class="top-nav">
+        <h2 id="mnavh"><span class="navicon"></span></h2>
+        <ul id="nav">
+            <li><a href="#" title="网站首页">网站首页</a></li>
+            <li><a href="#">css3相关</a></li>
+            <li><a href="#">java相关</a></li>
+            <li><a href="#">MySQL相关</a></li>
+            <li><a href="#">javascript</a></li>
+            <li><a href="#">jQuery插件库</a></li>
+            <li><a href="#">关于我</a></li>
+            <li><a href="#">留言</a></li>
+
+        </ul>
+    </div>
+    <div class="search">
+        <!--搜索框-->
+        <!--<form action="/e/search/index.php" method="post" name="searchform" id="searchform">-->
+        <!--<input name="keyboard" id="keyboard" class="input_text" value="搜索你喜欢的" style="color: rgb(153, 153, 153);"-->
+        <!--onfocus="if(value=='搜索你喜欢的'){this.style.color='#000';value=''}"-->
+        <!--onblur="if(value==''){this.style.color='#999';value='搜索你喜欢的'}" type="text">-->
+        <!--<input name="show" value="title" type="hidden">-->
+        <!--<input name="tempid" value="1" type="hidden">-->
+        <!--<input name="tbname" value="news" type="hidden">-->
+        <!--<input name="Submit" class="input_submit" value="" type="submit">-->
+        <!--</form>-->
+    </div>
+</header>
+<aside class="side">
+    <!--个人头像-->
+    <div class="about"><i><a href="/"><img src="#"></a></i>
+        <p>罗许，，一边工作一边积累经验，分享一些有用的经验和心得。</p>
+    </div>
+    <!--个人二维码图片-->
+    <div class="weixin"><img src="">
+        <p>写上一些话</p>
+    </div>
+</aside>
+<section>
+    <div class="section-content">
+        <div class="welcome"> 您好，欢迎您访问罗许官方网站！</div>
+        <div class="picbox">
+            <h2 class="pictitle"><a href="#">个人网站|头条展示</a></h2>
+            <!--box begin-->
+            <div class="Box_con"><span class="btnl btn" id="btnl"></span> <span class="btnr btn" id="btnr"></span>
+                <div class="conbox" id="BoxUl">
+                    <ul>
+                        <li class="cur"><a href="http://phpstudy.php.cn/css3" target="_blank"><img
+                                src="images/css3.jpg"
+                                alt=""/>
+                            <p>css3手册</p>
+                        </a></li>
+                        <li class="cur"><a href="https://www.w3cschool.cn/" target="_blank"><img
+                                src="images/w3c.jpg"
+                                alt="w3cschool"/>
+                            <p>w3cschool</p>
+                        </a></li>
+                        <li class="cur"><a href="https://www.csdn.net/" target="_blank"><img
+                                src="images/csdn.jpg"
+                                alt="csdn博客"/>
+                            <p>csdn博客</p>
+                        </a></li>
+                        <li class="cur"><a href="https://www.oschina.net/" target="_blank"><img
+                                src="images/opensource.jpg"
+                                alt="开源社区"/>
+                            <p>开源社区</p>
+                        </a></li>
+                        <li class="cur"><a href="http://oeasy.org/?dmtmhs=5dkyv" target="_blank"><img
+                                src="images/oeasy.jpg"
+                                alt="oeasy"/>
+                            <p>oeasy学堂</p>
+                        </a></li>
+                        <li class="cur"><a href="https://github.com/" target="_blank"><img
+                                src="images/github.jpg"
+                                alt="github"/>
+                            <p>github</p>
+                        </a></li>
+
+                        <li class="cur"><a href="http://www.51miz.com/" target="_blank"><img
+                                src="images/mizhi.jpg"
+                                alt="觅知网"/>
+                            <p>o觅知css素材网</p>
+                        </a></li>
+                        <li class="cur"><a href="https://gitee.com/" target="_blank"><img
+                                src="images/mayun.jpg"
+                                alt="码云代码仓库"/>
+                            <p>码云代码仓库</p>
+                        </a></li>
+                        <li class="cur"><a href="http://www.daqianduan.com/" target="_blank"><img
+                                src="images/daqianduan.jpg"
+                                alt="大前端"/>
+                            <p>大前端</p>
+                        </a></li>
+                        <li class="cur"><a href=" https://www.cnblogs.com/" target="_blank"><img
+                                src="images/boke.jpg"
+                                alt="博客园"/>
+                            <p>博客园</p>
+                        </a></li>
+                        <li class="cur"><a href="https://www.mysql.com/cn/" target="_blank"><img
+                                src="images/mysql.jpg"
+                                alt="mysql"/>
+                            <p>MySQL</p>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--box end-->
+        </div>
+        <div class="newsbox">
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="http://phpstudy.php.cn/css3/" target="_blank">更多</a></span><b>css3相关</b>
+                    </h2>
+                    <ul>
+                        <li><a href="http://phpstudy.php.cn/css3/" target="_blank"><span>01-16</span>css3属相表</a></li>
+                        <li><a href="http://www.w3school.com.cn/" target="_blank"><span>01-16</span>w3school</a></li>
+                        <li><a href="http://www.bootcss.com/" target="_blank"><span>01-16</span>Bootstrap官网</a></li>
+                        <li><a href="http://www.dmaku.com/" target="_blank"><span>01-16</span>代码库</a>
+                        <li><a href="http://http://www.51miz.com/" target="_blank"><span>01-16</span>觅知网</a></li>
+                        <li><a href="http://www.daqianduan.com/" target="_blank"><span>01-16</span>大前端</a></li>
+                        <li><a href="https://blog.csdn.net/u013144287/article/details/81330409" target="_blank"><span>01-16</span>css3
+                            加 hover 实现网页遮罩从下至上渐变拉伸效果</a></li>
+                        <li><a href="https://blog.csdn.net/weixin_44543305/article/details/86528498"
+                               target="_blank"><span>01-16</span>我的HTML的布局的小秘密</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="#" target="_blank">更多</a></span><b>java和前端</b></h2>
+                    <ul>
+                        <li><a href="http://www.jq22.com/" target="_blank"><span>01-16</span>jQuery插件库</a></li>
+                        <li><a href="https://www.csdn.net/" target="_blank"><span>01-16</span>csdn社区</a></li>
+                        <li><a href="http://www.xiaomuedu.com/" target="_blank"><span>01-16</span>小木学堂</a></li>
+                        <li><a href="https://www.cnblogs.com/fsh1542115262/p/3951221.html"
+                               target="_blank"><span>01-16</span>javascript小技巧(非常全)</a></li>
+                        <li><a href="http://ifeve.com/category/java/" target="_blank"><span>01-16</span>Java并发编程</a>
+                        </li>
+                        <li><a href="http://www.cnblogs.com/ssh2/p/3463199.html" target="_blank"><span>01-16</span>将java
+                            swing写的用程序打包exe可执行程序</a></li>
+                        <li><a href="https://www.cnblogs.com/zsy0228/articles/4440176.html"
+                               target="_blank"><span>01-16</span>jQuery常用技巧总结</a></li>
+                        <li><a href="https://blog.csdn.net/guttaoqibao/article/details/78089546" target="_blank"><span>01-16</span>java
+                            web传参数的3种形式</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="#" target="_blank">更多</a></span><b>mySql数据库</b></h2>
+                    <ul>
+                        <li><a href="https://www.mysql.com/cn/" target="_blank"><span>01-16</span>mysql中文官网</a></li>
+                        <li><a href="http://how2j.cn/stage/11.html" target="_blank"><span>01-16</span>oracle、mySql、hsqldb数据库</a>
+                        </li>
+                        <li><a href="https://www.cnblogs.com/programmer-tlh/p/5782418.html"
+                               target="_blank"><span>01-16</span>mysql数据库命令大全</a></li>
+                        <li><a href="https://www.cnblogs.com/liujiacai/p/7605612.html"
+                               target="_blank"><span>01-16</span>mysql优化原理</a></li>
+                        <li><a href="https://blog.csdn.net/u013087513/article/details/77899412" target="_blank"><span>01-16</span>MySQL优化三大方向</a>
+                        </li>
+                        <li><a href="https://www.cnblogs.com/moqiang02/p/4061296.html"
+                               target="_blank"><span>01-16</span>mysql非常全的总结</a></li>
+                        <li><a href="https://blog.csdn.net/jie_liang/article/details/77340905" target="_blank"><span>01-16</span>sql优化的几种方法</a>
+                        </li>
+                        <li><a href="https://www.2cto.com/database/MySQL/" target="_blank"><span>01-16</span>mysql(红黑联盟)</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="#" target="_blank">更多</a></span><b>游戏制作</b></h2>
+                    <ul>
+                        <li><a href="https://blog.csdn.net/DarkRabbit/column/info/27551"
+                               target="_blank"><span>01-16</span>《SRPG游戏开发》</a></li>
+                        <li><a href="http://blog.jmecn.net/jme3-tutorial-for-beginners/"
+                               target="_blank"><span>01-16</span>jMonkeyEngine游戏开发课程</a></li>
+                        <li><a href="https://www.bilibili.com/video/av43616973" target="_blank"><span>01-16</span>Unity
+                            3D游戏开发500集</a></li>
+                        <li><a href="https://www.bilibili.com/video/av1253816" target="_blank"><span>01-16</span>《丽莎的记忆》游戏开发直播</a>
+                        </li>
+
+                        <li><a href="#" target="_blank"><span>01-16</span>Unity3D《合金弹头》开发(视频)</a></li>
+                        <li><a href="https://www.bilibili.com/video/av23567236" target="_blank"><span>01-16</span>jquery-模拟上传进度条</a>
+                        </li>
+                        <li><a href="https://www.bilibili.com/video/av33083671?from=search&seid=5355580978633799531"
+                               target="_blank"><span>01-16</span>java网络爬虫视频</a></li>
+                        <li><a href="https://www.bilibili.com/video/av23949796" target="_blank"><span>01-16</span>分布式爬虫</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="#" target="_blank">更多</a></span><b>视频</b></h2>
+                    <ul>
+                        <li><a href="https://www.bilibili.com/video/av23567388"
+                               target="_blank"><span>01-16</span>多线程</a></li>
+                        <li><a href="https://www.bilibili.com/video/av24892647" target="_blank"><span>01-16</span>设计模式的艺术</a>
+                        </li>
+                        <li><a href="https://www.bilibili.com/video/av1253816" target="_blank"><span>01-16</span>框架开发之路
+                            -- Java注解全面解析</a></li>
+                        <li><a href="https://www.bilibili.com/video/av43326226" target="_blank"><span>01-16</span>java从零开始开发区块链技术</a>
+                        </li>
+                        <li><a href="https://www.bilibili.com/video/av43341958" target="_blank"><span>01-16</span>规模系统和算法的数据操作--华盛顿大学</a>
+                        </li>
+                        <li><a href="https://www.bilibili.com/video/av43616516" target="_blank"><span>01-16</span>python全教程</a>
+                        </li>
+                        <li><a href="https://www.bilibili.com/video/av24472030" target="_blank"><span>01-16</span>Java的算法</a>
+                        </li>
+                        <li><a href="https://www.bilibili.com/video/av23698868" target="_blank"><span>01-16</span>java异常机制详解</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="news">
+                    <h2 class="newstitle"><span><a href="#" target="_blank">更多</a></span><b>乱七八糟</b></h2>
+                    <ul>
+                        <li><a href="https://gitee.com/" target="_blank"><span>01-16</span>码云</a></li>
+                        <li><a href="https://www.cnblogs.com/" target="_blank"><span>01-16</span>博客园</a></li>
+                        <li><a href="http://www.codesky.net/" target="_blank"><span>01-16</span>源码</a></li>
+                        <li><a href="https://cli.im/" target="_blank"><span>01-16</span>草料（一个生成二维码的网站）</a>
+                        </li>
+                        <li><a href="http://oeasy.org/?dmtmhs=5dkyv" target="_blank"><span>01-16</span>oeasy学堂</a></li>
+                        <li><a href="https://space.bilibili.com/14163840/channel/detail?cid=58954"
+                               target="_blank"><span>01-16</span>java高琪300集(视频)</a></li>
+                        <li><a href="https://www.bilibili.com/video/av24471854" target="_blank"><span>01-16</span>ztree树插件</a>
+                        </li>
+                        <li><a href="https://leetcode-cn.com/problemset/database/" target="_blank"><span>01-16</span>力扣精选练习</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+        </div>
+        <div class="blank"></div>
+        <div class="links">
+            <h2 class="linktitle">友情链接</h2>
+            <ul class="link-pic">
+            </ul>
+            <ul class="link-text">
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2018 Inc. AllRights Reserved. Design by 罗许个人网站 蜀ICP备11002373号-1</p>
+        </div>
+    </div>
+</section>
+<a href="#" class="cd-top cd-is-visible">Top</a>
+</body>
+</html>
